@@ -1,0 +1,51 @@
+.media {
+  margin-top: 1.25rem;
+}
+.media.card-body, .media:first-child {
+  margin-top: 0;
+}
+
+.media-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.media-title {
+  margin-bottom: 0.125rem;
+}
+
+.img-preview {
+  max-height: 5rem;
+}
+
+.media-list-bordered .media {
+  margin-top: 0;
+  padding: 1rem 1.25rem;
+  border-top: 1px solid #ddd;
+}
+
+.media-list-linked .media {
+  padding: 1rem 1.25rem;
+}
+.media-list-linked li.media {
+  margin-top: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.media-list-linked.media-list-bordered li.media {
+  border-bottom: 0;
+}
+.media-list-linked a.media {
+  color: inherit;
+  transition: all ease-in-out 0.15s;
+}
+.media-list-linked a.media:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .media-list-linked a.media {
+    transition: none;
+  }
+}/*# sourceMappingURL=bootstrap-limitless-media-objects.css.map */

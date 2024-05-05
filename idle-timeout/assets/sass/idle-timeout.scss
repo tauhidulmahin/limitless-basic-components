@@ -1,0 +1,140 @@
+.alert {
+    position: relative;
+    padding: .9375rem 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid transparent;
+    border-radius: 0.1875rem;
+  }
+  
+  .alert-heading {
+    color: inherit;
+  }
+  
+  .alert-link {
+    font-weight: 500;
+  }
+  
+  .alert-dismissible {
+    padding-right: 3.75003rem;
+  
+    .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: .9375rem 1.25rem;
+      color: inherit;
+    }
+  }
+  
+  .alert-primary {
+    color: #114e7e;
+    background-color: #dbeefd;
+    border-color: #339ef4;
+  
+    hr {
+      border-top-color: #1b92f3;
+    }
+  
+    .alert-link {
+      color: #0b3251;
+    }
+  }
+  
+  .alert-secondary {
+    color: #3e3e3e;
+    background-color: #e9e9e9;
+    border-color: #828282;
+  
+    hr {
+      border-top-color: #757575;
+    }
+  
+    .alert-link {
+      color: #252525;
+    }
+  }
+  
+  .alert-success {
+    color: #285b2a;
+    background-color: #e2f2e3;
+    border-color: #5ab55e;
+  
+    hr {
+      border-top-color: #4ca950;
+    }
+  
+    .alert-link {
+      color: #18381a;
+    }
+  }
+  
+  .alert-info {
+    color: #00626e;
+    background-color: #d6f4f8;
+    border-color: #14c1d7;
+  
+    hr {
+      border-top-color: #12acc0;
+    }
+  
+    .alert-link {
+      color: #00353b;
+    }
+  }
+  
+  .alert-warning {
+    color: #853a23;
+    background-color: #ffe8e1;
+    border-color: #ff7b52;
+  
+    hr {
+      border-top-color: #ff6839;
+    }
+  
+    .alert-link {
+      color: #5d2818;
+    }
+  }
+  
+  .alert-danger {
+    color: #7f231c;
+    background-color: #fde1df;
+    border-color: #f55246;
+  
+    hr {
+      border-top-color: #f43b2e;
+    }
+  
+    .alert-link {
+      color: #551713;
+    }
+  }
+  
+  .alert-light {
+    color: #828282;
+    background-color: #fefefe;
+    border-color: #fafafa;
+  
+    hr {
+      border-top-color: #ededed;
+    }
+  
+    .alert-link {
+      color: #696969;
+    }
+  }
+  
+  .alert-dark {
+    color: #1a2225;
+    background-color: #dee1e2;
+    border-color: #425057;
+  
+    hr {
+      border-top-color: #374349;
+    }
+  
+    .alert-link {
+      color: #050607;
+    }
+  }
+  
