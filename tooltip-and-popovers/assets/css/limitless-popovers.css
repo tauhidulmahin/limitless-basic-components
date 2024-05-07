@@ -1,0 +1,62 @@
+.popover-header {
+  font-weight: 500;
+  padding-bottom: 0;
+  border-bottom-width: 0;
+}
+.popover-header[class*=bg-]:not(.bg-white):not(.bg-light) {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom-width: 1px;
+}
+
+.bs-popover-top[class*=bg-]:not(.bg-white):not(.bg-light) .arrow {
+  border-top-color: inherit;
+}
+.bs-popover-top[class*=bg-]:not(.bg-white):not(.bg-light) .arrow:after, .bs-popover-top[class*=bg-]:not(.bg-white):not(.bg-light) .arrow:before {
+  border-top-color: inherit;
+}
+.bs-popover-top[class*=border-] .arrow {
+  border-top-color: inherit;
+}
+.bs-popover-top[class*=border-] .arrow:after, .bs-popover-top[class*=border-] .arrow:before {
+  border-top-color: inherit;
+}
+
+.bs-popover-right[class*=bg-]:not(.bg-white):not(.bg-light) .arrow {
+  border-right-color: inherit;
+}
+.bs-popover-right[class*=bg-]:not(.bg-white):not(.bg-light) .arrow:after, .bs-popover-right[class*=bg-]:not(.bg-white):not(.bg-light) .arrow:before {
+  border-right-color: inherit;
+}
+.bs-popover-right[class*=border-] .arrow {
+  border-right-color: inherit;
+}
+.bs-popover-right[class*=border-] .arrow:after, .bs-popover-right[class*=border-] .arrow:before {
+  border-right-color: inherit;
+}
+
+.bs-popover-bottom[class*=bg-]:not(.bg-white):not(.bg-light) .arrow {
+  border-bottom-color: inherit;
+}
+.bs-popover-bottom[class*=bg-]:not(.bg-white):not(.bg-light) .arrow:after, .bs-popover-bottom[class*=bg-]:not(.bg-white):not(.bg-light) .arrow:before {
+  border-bottom-color: inherit;
+}
+.bs-popover-bottom[class*=border-] .arrow {
+  border-bottom-color: inherit;
+}
+.bs-popover-bottom[class*=border-] .arrow:after, .bs-popover-bottom[class*=border-] .arrow:before {
+  border-bottom-color: inherit;
+}
+
+.bs-popover-left[class*=bg-]:not(.bg-white):not(.bg-light) .arrow {
+  border-left-color: inherit;
+}
+.bs-popover-left[class*=bg-]:not(.bg-white):not(.bg-light) .arrow:after, .bs-popover-left[class*=bg-]:not(.bg-white):not(.bg-light) .arrow:before {
+  border-left-color: inherit;
+}
+.bs-popover-left[class*=border-] .arrow {
+  border-left-color: inherit;
+}
+.bs-popover-left[class*=border-] .arrow:after, .bs-popover-left[class*=border-] .arrow:before {
+  border-left-color: inherit;
+}/*# sourceMappingURL=limitless-popovers.css.map */
