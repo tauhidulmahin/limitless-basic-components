@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+		type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/basic-modals-bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/basic-modals-limitless.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/notifications/bootbox.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/components_modals.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+
+
+
+	<!-- Page content -->
+	<div class="page-content">
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Basic modals -->
+				<div class="card">
+
+
+					<div class="table-responsive">
+						<table class="table">
+							<tbody>
+								<tr>
+									<th colspan="3" class="table-active">Basic modals</th>
+								</tr>
+								<tr>
+									<td style="width: 20%;">Default modal dialog</td>
+									<td style="width: 20%;"><button type="button" class="btn btn-light"
+											data-toggle="modal" data-target="#modal_default">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Basic modal dialog with <code>header</code>, <code>body</code> and
+										<code>footer</code> areas. Default examples displays: header - contains a title
+										and a close button; footer - contains buttons and body contains static or
+										dynamic content
+									</td>
+								</tr>
+								<tr>
+									<td>Modal with icons</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_iconified">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Modal with icons added to the specified elements: heading title, footer control
+										buttons and text inside modal body</td>
+								</tr>
+								<tr>
+									<td>Disable backdrop</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_backdrop">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Disabled backdrop. Disable backdrop element using
+										<code>data-backdrop="false"</code> or alternatively, specify <code>static</code>
+										for a backdrop which doesn't close the modal on click
+									</td>
+								</tr>
+								<tr>
+									<td>Disable keyboard interaction</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_keyboard">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Disabled keyboard interaction. If <code>keyboard</code> option is set to
+										<code>true</code> (default), the modal can be closed when escape key is pressed
+									</td>
+								</tr>
+								<tr>
+									<td>Disable animation</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_animation">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Disabled animation. For modals that simply appear rather than fade in to view,
+										remove the <code>.fade</code> class from your modal markup</td>
+								</tr>
+								<tr>
+									<td>Scrollable modal</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_scrollable">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Scrollable modal that allows scroll the modal body by adding
+										<code>.modal-dialog-scrollable</code> to <code>.modal-dialog</code>
+									</td>
+								</tr>
+								<tr>
+									<td>Remote source</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_remote">Launch <i class="icon-play3 ml-2"></i></button>
+									</td>
+									<td>Default Bootstrap's remote source option replacement using jquery
+										<code>.load()</code>. As suggested by Bootstrap dev team
+									</td>
+								</tr>
+
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /basic modals -->
+
+
+				<!-- Basic modal -->
+				<div id="modal_default" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Basic modal</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /basic modal -->
+
+				<!-- Iconified modal -->
+				<div id="modal_iconified" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title"><i class="icon-menu7 mr-2"></i> &nbsp;Modal with icons</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<div
+									class="alert alert-info alert-dismissible alert-styled-left border-top-0 border-bottom-0 border-right-0">
+									<span class="font-weight-semibold">Here we go!</span> Example of an alert inside
+									modal.
+									<button type="button" class="close" data-dismiss="alert">×</button>
+								</div>
+
+								<h6 class="font-weight-semibold"><i class="icon-law mr-2"></i> Sample heading with icon
+								</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+
+								<hr>
+
+								<p><i class="icon-mention mr-2"></i> Aenean lacinia bibendum nulla sed consectetur.
+									Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio
+									dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button class="btn btn-link" data-dismiss="modal"><i
+										class="icon-cross2 font-size-base mr-1"></i> Close</button>
+								<button class="btn bg-primary"><i class="icon-checkmark3 font-size-base mr-1"></i>
+									Save</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /iconified modal -->
+
+				<!-- Disabled backdrop -->
+				<div id="modal_backdrop" class="modal fade" data-backdrop="false" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Disable backdrop</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /disabled backdrop -->
+
+				<!-- Disabled keyboard interaction -->
+				<div id="modal_keyboard" class="modal fade" data-keyboard="false" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Disable keyboard interaction</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /disabled keyboard interaction -->
+
+				<!-- Disabled animation -->
+				<div id="modal_animation" class="modal" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Disable animation</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /disabled animation -->
+
+				<!-- Scrollable modal -->
+				<div id="modal_scrollable" class="modal fade" tabindex="-1">
+					<div class="modal-dialog modal-dialog-scrollable">
+						<div class="modal-content">
+							<div class="modal-header pb-3">
+								<h5 class="modal-title">Scrollable modal</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body py-0">
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+								<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+									scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non
+									metus auctor fringilla.</p>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+								<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+									scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non
+									metus auctor fringilla.</p>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+								<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+									scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non
+									metus auctor fringilla.</p>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+								<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+									scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non
+									metus auctor fringilla.</p>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+								<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+									scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non
+									metus auctor fringilla.</p>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+								<p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+									scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non
+									metus auctor fringilla.</p>
+							</div>
+
+							<div class="modal-footer pt-3">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /scrollable modal -->
+
+
+				<!-- Remote source -->
+				<div id="modal_remote" class="modal" tabindex="-1">
+					<div class="modal-dialog modal-full">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Remote source</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body"></div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /remote source -->
+
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+
+</html>

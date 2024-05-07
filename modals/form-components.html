@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+		type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/basic-modals-bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/basic-modals-limitless.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/notifications/bootbox.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/components_modals.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+
+
+
+	<!-- Page content -->
+	<div class="page-content">
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Basic modals -->
+				<div class="card">
+
+
+					<div class="table-responsive">
+						<table class="table">
+							<tbody>
+								<tr class="table-border-double">
+									<th colspan="3" class="table-active">Form components</th>
+								</tr>
+								<tr>
+									<td>Vertical form</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_form_vertical">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Modal with default vertical form layout and responsive grid. Forms must be
+										placed outside of <code>.modal-body</code> container to prevent extra horizontal
+										padding</td>
+								</tr>
+								<tr>
+									<td>Horizontal form</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_form_horizontal">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Modal with horizontal form layout. It does also support responsive grid, but in
+										this case it will look best in wider modals</td>
+								</tr>
+								<tr>
+									<td>Inline form</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_form_inline">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Modal with with a simple <code>inline</code> form layout</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /basic modals -->
+
+
+
+				<!-- Vertical form modal -->
+				<div id="modal_form_vertical" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Vertical form</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<form action="#">
+								<div class="modal-body">
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6">
+												<label>First name</label>
+												<input type="text" placeholder="Eugene" class="form-control">
+											</div>
+
+											<div class="col-sm-6">
+												<label>Last name</label>
+												<input type="text" placeholder="Kopyov" class="form-control">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6">
+												<label>Address line 1</label>
+												<input type="text" placeholder="Ring street 12" class="form-control">
+											</div>
+
+											<div class="col-sm-6">
+												<label>Address line 2</label>
+												<input type="text" placeholder="building D, flat #67"
+													class="form-control">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-4">
+												<label>City</label>
+												<input type="text" placeholder="Munich" class="form-control">
+											</div>
+
+											<div class="col-sm-4">
+												<label>State/Province</label>
+												<input type="text" placeholder="Bayern" class="form-control">
+											</div>
+
+											<div class="col-sm-4">
+												<label>ZIP code</label>
+												<input type="text" placeholder="1031" class="form-control">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6">
+												<label>Email</label>
+												<input type="text" placeholder="eugene@kopyov.com" class="form-control">
+												<span class="form-text text-muted">name@domain.com</span>
+											</div>
+
+											<div class="col-sm-6">
+												<label>Phone #</label>
+												<input type="text" placeholder="+99-99-9999-9999"
+													data-mask="+99-99-9999-9999" class="form-control">
+												<span class="form-text text-muted">+99-99-9999-9999</span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+									<button type="submit" class="btn bg-primary">Submit form</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- /vertical form modal -->
+
+
+				<!-- Horizontal form modal -->
+				<div id="modal_form_horizontal" class="modal fade" tabindex="-1">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Horizontal form</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<form action="#" class="form-horizontal">
+								<div class="modal-body">
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">First name</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Eugene" class="form-control">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Last name</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Kopyov" class="form-control">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Email</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="eugene@kopyov.com" class="form-control">
+											<span class="form-text text-muted">name@domain.com</span>
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Phone #</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="+99-99-9999-9999"
+												data-mask="+99-99-9999-9999" class="form-control">
+											<span class="form-text text-muted">+99-99-9999-9999</span>
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">Address line 1</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Ring street 12, building D, flat #67"
+												class="form-control">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">City</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Munich" class="form-control">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">State/Province</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="Bayern" class="form-control">
+										</div>
+									</div>
+
+									<div class="form-group row">
+										<label class="col-form-label col-sm-3">ZIP code</label>
+										<div class="col-sm-9">
+											<input type="text" placeholder="1031" class="form-control">
+										</div>
+									</div>
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+									<button type="submit" class="btn bg-primary">Submit form</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- /horizontal form modal -->
+
+
+				<!-- Inline form modal -->
+				<div id="modal_form_inline" class="modal fade" tabindex="-1">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Inline form</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<form action="#" class="modal-body form-inline justify-content-center">
+								<label>Username:</label>
+								<input type="text" placeholder="Your username"
+									class="form-control mb-2 mr-sm-2 ml-sm-2 mb-sm-0">
+
+								<label class="ml-sm-2">Password:</label>
+								<input type="password" placeholder="Your password"
+									class="form-control mb-2 mr-sm-2 ml-sm-2 mb-sm-0">
+
+								<button type="submit" class="btn bg-primary ml-sm-2 mb-sm-0">Sign me in <i
+										class="icon-plus22"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- /inline form modal -->
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+
+</html>

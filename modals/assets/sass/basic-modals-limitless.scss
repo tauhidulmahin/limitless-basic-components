@@ -1,0 +1,45 @@
+.modal .content-divider>span {
+    background-color: #fff;
+}
+
+[data-action=modal]:after {
+    content: "";
+}
+
+.modal-header {
+    position: relative;
+    border-top-left-radius: .1875rem;
+    border-top-right-radius: 0.1875rem;
+
+    .close {
+        color: inherit;
+    }
+
+    &:not([class*=bg-]) {
+        padding-bottom: 0;
+        border-bottom-width: 0;
+    }
+}
+
+.modal-footer:not([class*=bg-]) {
+    padding-top: 0;
+    border-top-width: 0;
+}
+
+.table+.modal-footer,
+[class*=table-responsive]+.modal-footer {
+    border-top-width: 1px;
+    border-top-color: #ddd;
+}
+
+@media (min-width: 576px) {
+    .modal-xs {
+        max-width: 300px;
+    }
+
+    .modal-full {
+        max-width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+		type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/basic-modals-bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/basic-modals-limitless.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/notifications/bootbox.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/components_modals.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+	<!-- Page content -->
+	<div class="page-content">
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Basic modals -->
+				<div class="card">
+
+
+					<div class="table-responsive">
+						<table class="table">
+							<tbody>
+								<tr class="table-border-double">
+									<th colspan="3" class="table-active">Heading options</th>
+								</tr>
+								<tr>
+									<td>Modal with H1 heading</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_h1">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Modal title in <code>H1</code> size. In all heading sizes, vertical position of
+										a <code>close</code> button will be automatically adjusted to the middle of the
+										modal header</td>
+								</tr>
+								<tr>
+									<td>Modal with H2 heading</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_h2">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Modal title in <code>H2</code> size</td>
+								</tr>
+								<tr>
+									<td>Modal with H3 heading</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_h3">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Modal title in <code>H3</code> size</td>
+								</tr>
+								<tr>
+									<td>Modal with H4 heading</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_h4">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Modal title in <code>H4</code> size</td>
+								</tr>
+								<tr>
+									<td>Modal with H5 heading</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_h5">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Modal title in <code>H5</code> size</td>
+								</tr>
+								<tr>
+									<td>Modal with H6 heading</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_h6">Launch <i class="icon-play3 ml-2"></i></button></td>
+									<td>Modal title in <code>H6</code> size</td>
+								</tr>
+								<tr>
+									<td>Modal with basic title</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_title_basic">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Modal title could be either a standard heading or any other component, but make
+										sure you have included <code>.modal-title</code> class to it</td>
+								</tr>
+								<tr>
+									<td>Modal with subtitle</td>
+									<td><button type="button" class="btn btn-light" data-toggle="modal"
+											data-target="#modal_subtitle">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Modal title <code>subtitle</code>. This can be either inline or block. To
+										display a subtitle in one line with the title, remove <code>.d-block</code>
+										class from it</td>
+								</tr>
+
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /basic modals -->
+
+
+
+				<!-- Modal with h1 -->
+				<div id="modal_h1" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title">H1 heading title</h1>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /modal with h1 -->
+
+
+				<!-- Modal with h2 -->
+				<div id="modal_h2" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h2 class="modal-title">H2 heading title</h2>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /modal with h2 -->
+
+
+				<!-- Modal with h3 -->
+				<div id="modal_h3" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 class="modal-title">H3 heading title</h3>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /modal with h3 -->
+
+
+				<!-- Modal with h4 -->
+				<div id="modal_h4" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title">H4 heading title</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /modal with h4 -->
+
+
+				<!-- Modal with h5 -->
+				<div id="modal_h5" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">H5 heading title</h5>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /modal with h5 -->
+
+
+				<!-- Modal with h6 -->
+				<div id="modal_h6" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title">H6 heading title</h6>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /modal with h6 -->
+
+
+				<!-- Modal with basic title -->
+				<div id="modal_title_basic" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<span class="font-weight-semibold modal-title">Basic heading title</span>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /modal with basic title -->
+
+
+				<!-- Modal with subtitle -->
+				<div id="modal_subtitle" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">This is a modal title <small class="d-block text-muted">And this
+										is a subtitle</small></h5>
+
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+
+							<div class="modal-body">
+								<h6 class="font-weight-semibold">Text in a modal</h6>
+								<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+									sem. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus
+									sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+
+								<hr>
+
+								<h6 class="font-weight-semibold">Another paragraph</h6>
+								<p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+									facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac,
+									vestibulum at eros.</p>
+								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+									lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+								<button type="button" class="btn bg-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /modal with subtitle -->
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+
+</html>
