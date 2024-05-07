@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+        type="text/css">
+    <link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <link href="./assets/css/alerts-bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./assets/css/alerts-limitless.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="../global_assets/js/main/jquery.min.js"></script>
+    <script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="../assets/js/app.js"></script>
+    <!-- /theme JS files -->
+
+</head>
+
+<body>
+    <!-- Page content -->
+    <div class="page-content">
+        <!-- Main content -->
+        <div class="content-wrapper">
+
+
+            <!-- Content area -->
+            <div class="content">
+
+
+                <!-- Toasts -->
+                <div class="card">
+                    <div class="card-header header-elements-inline">
+                        <h5 class="card-title">Toast component</h5>
+                        <div class="header-elements">
+                            <div class="list-icons">
+                                <a class="list-icons-item" data-action="collapse"></a>
+                                <a class="list-icons-item" data-action="reload"></a>
+                                <a class="list-icons-item" data-action="remove"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="mb-3">Toasts are lightweight notifications designed to mimic the push notifications
+                            that have been popularized by mobile and desktop operating systems. They’re built with
+                            flexbox, so they’re easy to align and position. Toasts are as flexible as you need and have
+                            very little required markup. At a minimum, we require a single element to contain your
+                            “toasted” content and strongly encourage a dismiss button.</p>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Basic toast</p>
+                                    <div class="toast" style="opacity: 1; max-width: none;">
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Toast title</p>
+                                    <div class="toast" style="opacity: 1; max-width: none;">
+                                        <div class="toast-header">
+                                            <span class="font-weight-semibold mr-auto">Toast title</span>
+                                        </div>
+
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Dismissable toast</p>
+                                    <div class="toast" style="opacity: 1; max-width: none;">
+                                        <div class="toast-header">
+                                            <span class="font-weight-semibold mr-auto">Dismissable toast</span>
+                                            <button type="button" class="ml-3 close" data-dismiss="toast">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Text helper</p>
+                                    <div class="toast" style="opacity: 1; max-width: none;">
+                                        <div class="toast-header">
+                                            <span class="font-weight-semibold mr-auto">Toast title</span>
+                                            <span class="font-size-sm text-muted">40 mins ago</span>
+                                        </div>
+
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Badge helper</p>
+                                    <div class="toast" style="opacity: 1; max-width: none;">
+                                        <div class="toast-header">
+                                            <span class="font-weight-semibold mr-auto">Toast title</span>
+                                            <span class="badge badge-pill bg-danger">59</span>
+                                        </div>
+
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Loading helper</p>
+                                    <div class="toast" style="opacity: 1; max-width: none;">
+                                        <div class="toast-header">
+                                            <span class="font-weight-semibold mr-auto">Toast title</span>
+                                            <i class="icon-spinner2 spinner text-muted top-0"></i>
+                                        </div>
+
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Light toast</p>
+                                    <div class="toast bg-white text-default border"
+                                        style="opacity: 1; max-width: none;">
+                                        <div class="toast-header bg-light text-default border-bottom">
+                                            <span class="font-weight-semibold mr-auto">Toast title</span>
+                                            <span class="font-size-sm text-muted">11 mins ago</span>
+                                            <button type="button" class="ml-3 close" data-dismiss="toast">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Custom toast color</p>
+                                    <div class="toast bg-slate border-transparent" style="opacity: 1; max-width: none;">
+                                        <div class="toast-header bg-slate-600 border-bottom-slate-400">
+                                            <span class="font-weight-semibold mr-auto">Toast title</span>
+                                            <span class="font-size-sm opacity-50">11 mins ago</span>
+                                            <button type="button" class="ml-3 close text-white" data-dismiss="toast">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="mb-4">
+                                    <p class="font-weight-semibold">Custom header color</p>
+                                    <div class="toast" style="opacity: 1; max-width: none;">
+                                        <div class="toast-header bg-success border-success">
+                                            <span class="font-weight-semibold mr-auto">Toast title</span>
+                                            <span class="font-size-sm opacity-50">11 mins ago</span>
+                                            <button type="button" class="ml-3 close text-white" data-dismiss="toast">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="toast-body">
+                                            Hello, world! This is a toast message.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /toasts -->
+
+            </div>
+            <!-- /content area -->
+        </div>
+        <!-- /main content -->
+
+    </div>
+    <!-- /page content -->
+
+</body>
+
+</html>

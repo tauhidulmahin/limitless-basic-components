@@ -1,0 +1,87 @@
+.alert-dismissible .close:focus, .alert-dismissible .close:hover {
+  color: inherit;
+}
+
+.alert[class*=bg-]:not(.bg-transparent):not(.bg-white):not(.bg-light) .alert-link {
+  color: inherit;
+  border-bottom-color: rgba(255, 255, 255, 0.85);
+}
+
+.alert-rounded {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  border-radius: 100px;
+}
+.alert-rounded.alert-dismissible .close {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.alert[class*=alert-styled-]:after {
+  content: "\e9a2";
+  font-family: icomoon;
+  color: #fff;
+  width: 2.875rem;
+  left: -2.875rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.alert[class*=alert-styled-].alert-danger:after, .alert[class*=alert-styled-][class*=bg-danger]:after {
+  content: "\ed64";
+}
+.alert[class*=alert-styled-].alert-success:after, .alert[class*=alert-styled-][class*=bg-success]:after {
+  content: "\ed6e";
+}
+.alert[class*=alert-styled-].alert-warning:after, .alert[class*=alert-styled-][class*=bg-warning]:after {
+  content: "\e9bd";
+}
+.alert[class*=alert-styled-].alert-info:after, .alert[class*=alert-styled-][class*=bg-info]:after {
+  content: "\e9b9";
+}
+.alert.alert-styled-left {
+  border-left-width: 2.875rem;
+}
+.alert.alert-styled-left[class*=bg-]:not(.bg-white):not(.bg-light) {
+  border-left-color: rgba(0, 0, 0, 0.15) !important;
+}
+.alert.alert-styled-right {
+  border-right-width: 2.875rem;
+}
+.alert.alert-styled-right:after {
+  left: auto;
+  right: -2.875rem;
+}
+.alert.alert-styled-right[class*=bg-]:not(.bg-white):not(.bg-light) {
+  border-right-color: rgba(0, 0, 0, 0.15) !important;
+}
+.alert.alert-styled-custom:after {
+  content: "\e81b";
+}
+.alert.ui-pnotify[class*=alert-arrow-] > .brighttheme:before, .alert:not(.ui-pnotify)[class*=alert-arrow-]:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-left: 5px solid;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left-color: inherit;
+  margin-top: -5px;
+}
+.alert.ui-pnotify.alert-arrow-right > .brighttheme:before, .alert:not(.ui-pnotify).alert-arrow-right:before {
+  left: auto;
+  right: 0;
+  border-left: 0;
+  border-right: 5px solid;
+  border-right-color: inherit;
+}
+
+/*# sourceMappingURL=alerts-limitless.css.map */
