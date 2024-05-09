@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+		type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/alerts-bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/alerts-limitless.css" rel="stylesheet" type="text/css">
+	
+	<!-- core JS files -->
+	<script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/notifications/jgrowl.min.js"></script>
+	<script src="../global_assets/js/plugins/notifications/noty.min.js"></script>
+
+	<script src="../assets/js/app.js"></script>
+	<script src="../global_assets/js/demo_pages/extra_jgrowl_noty.js"></script>
+
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+
+
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main sidebar -->
+
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Page header -->
+
+			<!-- /page header -->
+
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Noty notifications -->
+
+				<!-- /noty notifications -->
+
+
+				<!-- jGrowl notifications -->
+				<div class="card">
+
+
+
+
+					<div class="table-responsive">
+						<table class="table">
+							<tbody>
+
+
+
+								<tr class="table-border-double table-active">
+									<th colspan="3">Additional styles</th>
+								</tr>
+								<tr>
+									<td>Notice with left icon</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-solid-styled-left">Launch
+											<i class="icon-play3 ml-2"></i></button></td>
+									<td>Solid color notification with left icon. To use, add
+										<code>'bg-* alert-styled-left'</code> to the <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Notice with right icon</td>
+									<td><button type="button" class="btn btn-light"
+											id="jgrowl-solid-styled-right">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Solid color notification with right icon. To use, add
+										<code>'bg-* alert-styled-right'</code> to the <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Custom colors</td>
+									<td><button type="button" class="btn btn-light"
+											id="jgrowl-solid-custom-styled">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Alert sith custom styles. To use, add <code>'alert-styled-custom'</code> with
+										other classes to the <code>theme</code> option</td>
+								</tr>
+								<tr>
+									<td>Rounded alert</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-rounded">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Alert with rounded corners. To use, add <code>'alert-rounded'</code> to the
+										<code>theme</code> option</td>
+								</tr>
+
+								<tr class="table-border-double table-active">
+									<th colspan="3">jGrowl options</th>
+								</tr>
+								<tr>
+									<td>Sticky notice</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-sticky">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>When set to <code>true</code> a message will stick to the screen until it is
+										intentionally closed by the user</td>
+								</tr>
+								<tr>
+									<td>Long life</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-long-life">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>The lifespan of a non-sticky message on the screen. In current example it is 10
+										seconds</td>
+								</tr>
+								<tr>
+									<td>Animation speed</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-animation">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>The animation speed used to open and close a notification. In current example it
+										is <code>100ms</code></td>
+								</tr>
+								<tr>
+									<td>Callbacks</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-callbacks">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>All callbacks receive the notification's DOM context, the notifications message
+										and it's option object. Check out your <code>console</code></td>
+								</tr>
+
+								<tr class="table-border-double table-active">
+									<th colspan="3">jGrowl positions</th>
+								</tr>
+								<tr>
+									<td>Top left position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-top-left">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Top left notification position. To use, add <code>position: 'top-left'</code>
+										option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Top center position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-top-center">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Top center notification position. To use, add
+										<code>position: 'top-center'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Top right position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-top-right">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Top right notification position. To use, add <code>position: 'top-right'</code>
+										option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Page center position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-center">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Center notification position. To use, add <code>position: 'center'</code> option
+										to the notification config</td>
+								</tr>
+								<tr>
+									<td>Bottom left position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-bottom-left">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom left notification position. To use, add
+										<code>position: 'bottom-left'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Bottom center position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-bottom-center">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom center notification position. To use, add
+										<code>position: 'bottom-center'</code> option to the notification config</td>
+								</tr>
+								<tr>
+									<td>Bottom right position</td>
+									<td><button type="button" class="btn btn-light" id="jgrowl-bottom-right">Launch <i
+												class="icon-play3 ml-2"></i></button></td>
+									<td>Bottom right notification position. To use, add
+										<code>position: 'bottom-right'</code> option to the notification config</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /jGrowl notifications -->
+
+			</div>
+			<!-- /content area -->
+
+
+
+
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+</body>
+
+</html>
