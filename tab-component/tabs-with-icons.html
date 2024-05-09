@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="../assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap-limitless-tab-components.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/tab-components.css" rel="stylesheet" type="text/css">
+
+	<!-- /global stylesheets -->
+    <script src="../global_assets/js/main/jquery.min.js"></script>
+	<script src="../global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../global_assets/js/plugins/forms/inputs/typeahead/handlebars.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/typeahead/typeahead.bundle.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/inputs/alpaca/alpaca.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script src="../global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script src="../global_assets/js/plugins/ui/prism.min.js"></script>
+
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	
+	<!-- /main navbar -->
+
+
+	<!-- Page content -->
+
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Page header -->
+			<div class="page-header page-header-light">
+				<div class="page-header-content header-elements-md-inline">
+					<div class="page-title d-flex">
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Components</span> - Tabs</h4>
+						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+					</div>
+
+					<div class="header-elements d-none">
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
+							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+					<div class="d-flex">
+						<div class="breadcrumb">
+							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
+							<a href="components_tabs.html" class="breadcrumb-item">Components</a>
+							<span class="breadcrumb-item active">Tabs</span>
+						</div>
+
+						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+					</div>
+
+					<div class="header-elements d-none">
+						<div class="breadcrumb justify-content-center">
+							<a href="#" class="breadcrumb-elements-item">
+								<i class="icon-comment-discussion mr-2"></i>
+								Support
+							</a>
+
+							<div class="breadcrumb-elements-item dropdown p-0">
+								<a href="#" class="breadcrumb-elements-item dropdown-toggle" data-toggle="dropdown">
+									<i class="icon-gear mr-2"></i>
+									Settings
+								</a>
+
+								<div class="dropdown-menu dropdown-menu-right">
+									<a href="#" class="dropdown-item"><i class="icon-user-lock"></i> Account security</a>
+									<a href="#" class="dropdown-item"><i class="icon-statistics"></i> Analytics</a>
+									<a href="#" class="dropdown-item"><i class="icon-accessibility"></i> Accessibility</a>
+									<div class="dropdown-divider"></div>
+									<a href="#" class="dropdown-item"><i class="icon-gear"></i> All settings</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /page header -->
+
+
+
+				<!-- Tab icons -->
+				<div class="mb-3 mt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Tabs with icons
+					</h6>
+					<span class="text-muted d-block">Show icons in different positions</span>
+				</div>
+				<!-- /tab icons title -->
+
+
+				<!-- Left icons -->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Tabs with left icons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<ul class="nav nav-tabs nav-tabs-highlight">
+									<li class="nav-item"><a href="#left-icon-tab1" class="nav-link active" data-toggle="tab"><i class="icon-menu7 mr-2"></i> Active</a></li>
+									<li class="nav-item"><a href="#left-icon-tab2" class="nav-link" data-toggle="tab"><i class="icon-mention mr-2"></i> Inactive</a></li>
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="icon-gear mr-2"></i> Dropdown</a>
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#left-icon-tab3" class="dropdown-item" data-toggle="tab">Dropdown tab</a>
+											<a href="#left-icon-tab4" class="dropdown-item" data-toggle="tab">Another tab</a>
+										</div>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="left-icon-tab1">
+										Add icon markup <code>before</code> tab nav text to display icons on the left side.
+									</div>
+
+									<div class="tab-pane fade" id="left-icon-tab2">
+										Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+									</div>
+
+									<div class="tab-pane fade" id="left-icon-tab3">
+										DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+									</div>
+
+									<div class="tab-pane fade" id="left-icon-tab4">
+										Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Justified tabs. Left icons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<ul class="nav nav-tabs nav-tabs-highlight nav-justified">
+									<li class="nav-item"><a href="#justified-left-icon-tab1" class="nav-link active" data-toggle="tab"><i class="icon-menu7 mr-2"></i> Active</a></li>
+									<li class="nav-item"><a href="#justified-left-tab2" class="nav-link" data-toggle="tab"><i class="icon-mention mr-2"></i> Inactive</a></li>
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="icon-gear mr-2"></i> Dropdown</a>
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#justified-left-tab3" class="dropdown-item" data-toggle="tab">Dropdown tab</a>
+											<a href="#justified-left-tab4" class="dropdown-item" data-toggle="tab">Another tab</a>
+										</div>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="justified-left-tab1">
+										To use in tabs with equal widths add <code>.nav-justified</code> and icon markup to the tab nav.
+									</div>
+
+									<div class="tab-pane fade" id="justified-left-tab2">
+										Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+									</div>
+
+									<div class="tab-pane fade" id="justified-left-tab3">
+										DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+									</div>
+
+									<div class="tab-pane fade" id="justified-left-tab4">
+										Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /left icons -->
+
+
+				<!-- Right icons -->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Tabs with right icons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<ul class="nav nav-tabs nav-tabs-highlight">
+									<li class="nav-item"><a href="#right-icon-tab1" class="nav-link active" data-toggle="tab">Active <i class="icon-menu7 ml-2"></i></a></li>
+									<li class="nav-item"><a href="#right-icon-tab2" class="nav-link" data-toggle="tab">Inactive <i class="icon-mention ml-2"></i></a></li>
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown <i class="icon-gear ml-2"></i></a>
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#right-icon-tab3" class="dropdown-item" data-toggle="tab">Dropdown tab</a>
+											<a href="#right-icon-tab4" class="dropdown-item" data-toggle="tab">Another tab</a>
+										</div>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="right-icon-tab1">
+										Add icon markup <code>after</code> tab nav text to display icons on the right side.
+									</div>
+
+									<div class="tab-pane fade" id="right-icon-tab2">
+										Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+									</div>
+
+									<div class="tab-pane fade" id="right-icon-tab3">
+										DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+									</div>
+
+									<div class="tab-pane fade" id="right-icon-tab4">
+										Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Justified tabs. Right icons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<ul class="nav nav-tabs nav-tabs-bottom nav-justified">
+									<li class="nav-item"><a href="#justified-right-icon-tab1" class="nav-link active" data-toggle="tab">Active <i class="icon-menu7 ml-2"></i></a></li>
+									<li class="nav-item"><a href="#justified-right-icon-tab2" class="nav-link" data-toggle="tab">Inactive <i class="icon-mention ml-2"></i></a></li>
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown <i class="icon-gear ml-2"></i></a>
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#justified-right-icon-tab3" class="dropdown-item" data-toggle="tab">Dropdown tab</a>
+											<a href="#justified-right-icon-tab4" class="dropdown-item" data-toggle="tab">Another tab</a>
+										</div>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="justified-right-icon-tab1">
+										To use in tabs with equal widths add <code>.nav-justified</code> and icon markup to the tab nav.
+									</div>
+
+									<div class="tab-pane fade" id="justified-right-icon-tab2">
+										Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+									</div>
+
+									<div class="tab-pane fade" id="justified-right-icon-tab3">
+										DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+									</div>
+
+									<div class="tab-pane fade" id="justified-right-icon-tab4">
+										Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /right icons -->
+
+
+				<!-- Top icons -->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Tabs with top icons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<ul class="nav nav-tabs nav-tabs-highlight">
+									<li class="nav-item">
+										<a href="#top-icon-tab1" class="nav-link active" data-toggle="tab">
+											<div>
+												<i class="icon-menu7 d-block mb-1 mt-1"></i>
+												Active
+											</div>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#top-icon-tab2" class="nav-link" data-toggle="tab">
+											<div>
+												<i class="icon-mention d-block mb-1 mt-1"></i>
+												Inactive
+											</div>
+										</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link" data-toggle="dropdown">
+											<div>
+												<i class="icon-gear d-block mb-1 mt-1"></i>
+												Dropdown
+											</div>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#top-icon-tab3" class="dropdown-item" data-toggle="tab">Dropdown tab</a>
+											<a href="#top-icon-tab4" class="dropdown-item" data-toggle="tab">Another tab</a>
+										</div>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="top-icon-tab1">
+										To display icon on top, add icon code and <code>.d-block .mb-1 .mt-1</code> classes to icons.
+									</div>
+
+									<div class="tab-pane fade" id="top-icon-tab2">
+										Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+									</div>
+
+									<div class="tab-pane fade" id="top-icon-tab3">
+										DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+									</div>
+
+									<div class="tab-pane fade" id="top-icon-tab4">
+										Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Justified tabs. Top icons</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<ul class="nav nav-tabs nav-tabs-highlight nav-justified">
+									<li class="nav-item">
+										<a href="#justified-top-icon-tab1" class="nav-link active" data-toggle="tab">
+											<div>
+												<i class="icon-menu7 d-block mb-1 mt-1"></i>
+												Active
+											</div>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#justified-top-icon-tab2" class="nav-link" data-toggle="tab">
+											<div>
+												<i class="icon-mention d-block mb-1 mt-1"></i>
+												Inactive
+											</div>
+										</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link" data-toggle="dropdown">
+											<div>
+												<i class="icon-gear d-block mb-1 mt-1"></i>
+												Dropdown
+											</div>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#justified-top-icon-tab3" class="dropdown-item" data-toggle="tab">Dropdown tab</a>
+											<a href="#justified-top-icon-tab4" class="dropdown-item" data-toggle="tab">Another tab</a>
+										</div>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="justified-top-icon-tab1">
+										To use in tabs with equal widths add <code>.nav-justified</code> and icon markup to the tab nav.
+									</div>
+
+									<div class="tab-pane fade" id="justified-top-icon-tab2">
+										Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+									</div>
+
+									<div class="tab-pane fade" id="justified-top-icon-tab3">
+										DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+									</div>
+
+									<div class="tab-pane fade" id="justified-top-icon-tab4">
+										Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /top icons -->
+
+
+				<!-- Icons only -->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Tabs with icons only</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<ul class="nav nav-tabs nav-tabs-bottom">
+									<li class="nav-item">
+										<a href="#icon-only-tab1" class="nav-link active" data-toggle="tab">
+											<i class="icon-menu7"></i>
+											<span class="d-md-none ml-2">Active</span>
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a href="#icon-only-tab2" class="nav-link" data-toggle="tab">
+											<i class="icon-mention"></i>
+											<span class="d-md-none ml-2">Inactive</span>
+										</a>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+											<i class="icon-gear"></i>
+											<span class="d-md-none ml-2">Dropdown</span>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#icon-only-tab3" class="dropdown-item" data-toggle="tab">Dropdown tab</a>
+											<a href="#icon-only-tab4" class="dropdown-item" data-toggle="tab">Another tab</a>
+										</div>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="icon-only-tab1">
+										If tab nav doesn't have a text, add icon markup to display icon only.
+									</div>
+
+									<div class="tab-pane fade" id="icon-only-tab2">
+										Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+									</div>
+
+									<div class="tab-pane fade" id="icon-only-tab3">
+										DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+									</div>
+
+									<div class="tab-pane fade" id="icon-only-tab4">
+										Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-header header-elements-inline">
+								<h6 class="card-title">Justified tabs. Icons only</h6>
+								<div class="header-elements">
+									<div class="list-icons">
+				                		<a class="list-icons-item" data-action="collapse"></a>
+				                		<a class="list-icons-item" data-action="reload"></a>
+				                		<a class="list-icons-item" data-action="remove"></a>
+				                	</div>
+			                	</div>
+							</div>
+
+							<div class="card-body">
+								<ul class="nav nav-tabs nav-tabs-bottom nav-justified">
+									<li class="nav-item">
+										<a href="#justified-icon-only-tab1" class="nav-link active" data-toggle="tab">
+											<i class="icon-menu7"></i>
+											<span class="d-md-none ml-2">Active</span>
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a href="#justified-icon-only-tab2" class="nav-link" data-toggle="tab">
+											<i class="icon-mention"></i>
+											<span class="d-md-none ml-2">Inactive</span>
+										</a>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+											<i class="icon-gear"></i>
+											<span class="d-md-none ml-2">Dropdown</span>
+										</a>
+
+										<div class="dropdown-menu dropdown-menu-right">
+											<a href="#justified-icon-only-tab3" class="dropdown-item" data-toggle="tab">Dropdown tab</a>
+											<a href="#justified-icon-only-tab4" class="dropdown-item" data-toggle="tab">Another tab</a>
+										</div>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="justified-icon-only-tab1">
+										To use in tabs with equal widths add <code>.nav-justified</code> and icon markup to the tab nav.
+									</div>
+
+									<div class="tab-pane fade" id="justified-icon-only-tab2">
+										Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid laeggin.
+									</div>
+
+									<div class="tab-pane fade" id="justified-icon-only-tab3">
+										DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg whatever.
+									</div>
+
+									<div class="tab-pane fade" id="justified-icon-only-tab4">
+										Aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthet.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /icons only -->
+
+	
+				
+
+</body>
+</html>

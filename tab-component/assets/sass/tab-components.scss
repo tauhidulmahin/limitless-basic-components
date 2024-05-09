@@ -1,0 +1,36 @@
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+  
+    .nav-item {
+      margin-bottom: -1px;
+    }
+  
+    .nav-link {
+      border: 1px solid transparent;
+      border-top-left-radius: .1875rem;
+      border-top-right-radius: 0.1875rem;
+  
+      &:focus, &:hover {
+        border-color: transparent;
+      }
+  
+      &.disabled {
+        color: #999;
+        background-color: transparent;
+        border-color: transparent;
+      }
+    }
+  
+    .nav-item.show .nav-link, .nav-link.active {
+      color: #333;
+      background-color: #fff;
+      border-color: #ddd #ddd #fff;
+    }
+  
+    .dropdown-menu {
+      margin-top: -1px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  }
+  
